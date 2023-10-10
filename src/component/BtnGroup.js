@@ -5,6 +5,7 @@ const BtnGroup = () =>{
     return(
         <div className='btn-grp'>
             <button className='btn btn-primary'>Create Note</button>
+            <button className='btn btn-secondary'>Share Note</button>
         </div>
     )
 }
