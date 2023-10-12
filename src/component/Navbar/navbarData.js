@@ -9,12 +9,12 @@ export const menuItems = [
     },
     {
         "id": 3,
-        "menu_Item": "To Do's",
+        "menu_Item": "ToDo",
     },
 
     {
         "id": 4,
-        "menu_Item": "My Dairy",
+        "menu_Item": "Dairy",
     },
 
 ]
