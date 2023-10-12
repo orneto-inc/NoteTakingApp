@@ -1,4 +1,5 @@
 import React from "react";
+import { menuItems } from "./navbarData";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
-              src="/docs/5.0/assets/brand/bootstrap-logo.svg"
+              src=""
               alt=""
               width="30"
               height="24"
@@ -18,23 +19,17 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+
+              {menuItems.map((menuItem, key)=>{
+                return(
+                  <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  {menuItem.menu_Item}
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Notes
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  To Do's
-                </a>
-              </li>
+                )
+              })}
             </ul>
             <form className="d-flex">
               <input
