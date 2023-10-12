@@ -1,5 +1,6 @@
-import React from "react";
-import { menuItems } from "./navbarData";
+import React from "react"
+import { menuItems } from "./navbarData"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -23,9 +24,9 @@ const Navbar = () => {
               {menuItems.map((menuItem, key)=>{
                 return(
                   <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to={menuItem.menu_Item}>
                   {menuItem.menu_Item}
-                </a>
+                </Link>
               </li>
 
                 )
