@@ -8,7 +8,6 @@ const HomePage = () => {
     <div className="homepage">
       <BtnGroup />
       <div className="hearing-wrapper">
-        <p className="heading">All Notes</p>
       </div>
     </div>
   );
