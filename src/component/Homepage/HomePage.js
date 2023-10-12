@@ -1,12 +1,9 @@
 import React from "react";
-import "./styles.css";
-
-import BtnGroup from "./BtnGroup";
+import "./homePageStyles.css.css";
 
 const HomePage = () => {
   return (
-    <div className="homepage">
-      <BtnGroup />
+    <div className="homepage-container">
       <div className="hearing-wrapper">
         <p className="heading">All Notes</p>
       </div>
