@@ -1,6 +1,4 @@
 import React from "react";
-import { menuItems } from "./navbarData";
-import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -19,21 +17,6 @@ const Navbar = () => {
           </a>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              {menuItems.map((menuItem, id) => {
-                return (
-                  <li className="nav-item" key={menuItem.id}>
-                    <Link
-                      className="nav-link active"
-                      aria-current="page"
-                      to={menuItem.menu_Item}
-                    >
-                      {menuItem.menu_Item}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
             <form className="d-flex">
               <input
                 className="form-control me-2"

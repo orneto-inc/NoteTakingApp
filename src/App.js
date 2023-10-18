@@ -12,12 +12,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/todo" element={<ToDo />} />
       </Routes>
     </div>
   );
 }
-
 export default App;

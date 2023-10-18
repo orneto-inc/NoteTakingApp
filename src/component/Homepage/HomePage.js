@@ -1,12 +1,15 @@
 import React from "react";
 import "./homePageStyles.css";
+import RightSideBar from "../RightSideBar/RightSideBar";
 
 const HomePage = () => {
   return (
     <div className="homepage-container">
-      <div className="hearing-wrapper">
-        <p className="heading">All Notes</p>
-        <p className="heading">This is Notes Page</p>
+      <div className="rightSideBar-section">
+        <RightSideBar />
+      </div>
+      <div className="homePage-section">
+        This is Homepage Section
       </div>
     </div>
   );
