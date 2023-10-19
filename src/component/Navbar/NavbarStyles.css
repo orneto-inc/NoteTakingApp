@@ -1,4 +1,15 @@
+@import '../../App.css';
+
 /* Sample  */
+
 .navbar-container{
-    background-color: rgb(105, 105, 142);
+    box-shadow: 10px 15px 10px solid #000 !important;
+    background-color: aqua;
+}
+
+.primary-navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
