@@ -5,6 +5,7 @@ import Navbar from './component/Navbar/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Notes from './component/Notes/Notes';
 import ToDo from './component/ToDo/ToDo';
+import RightSideBar from './component/RightSideBar/RightSideBar';
 
 
 function App() {

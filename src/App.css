@@ -1,0 +1,19 @@
+/* Root Variables Start */
+
+:root{
+    --primary-color: #c07c7c;
+    
+}
+/* Root Variables End */
+
+
+
+/* Layout & Common Styling Start */
+/* Right Side Bar */
+.rightSideBar-section{
+    background-color: aliceblue;
+    width: 20%;
+    height: 100vh;
+}
+
+/* Layout & Common Styling End */

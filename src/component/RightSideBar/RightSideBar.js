@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavigationItmes } from './NavigationData';
 import { Link } from 'react-router-dom';
+import "./RightSideBar.css"
 
 
 const RightSideBar = () =>{

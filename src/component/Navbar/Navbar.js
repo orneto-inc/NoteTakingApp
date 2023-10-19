@@ -1,9 +1,10 @@
 import React from "react";
+import "./NavbarStyles.css";
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
@@ -15,7 +16,6 @@ const Navbar = () => {
             />
             Jott Down
           </a>
-
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <form className="d-flex">
               <input
