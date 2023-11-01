@@ -1,5 +1,5 @@
 import React from "react"
-import "./toDoStyles.css";;
+import "../../assets/styles.css";
 
 const ToDo = () =>{
     return(

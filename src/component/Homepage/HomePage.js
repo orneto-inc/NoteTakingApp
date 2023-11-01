@@ -1,5 +1,5 @@
 import React from "react";
-import "./homePageStyles.css";
+import "../../assets/styles.css";
 import RightSideBar from "../RightSideBar/RightSideBar";
 
 const HomePage = () => {

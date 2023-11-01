@@ -1,0 +1,55 @@
+@import './_utils.css';
+
+
+/* HomePage Styling Starts */
+@media (max-width: 720px){
+    .homepage-container{
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 .5rem;
+    }
+}
+
+/* HomePage Styling Ends */
+
+
+/* Navbar Styling Starts */
+
+@media (max-width: 720px){
+    .navbar-container{
+        box-shadow: 10px 15px 10px solid #000 !important;
+        background-color: aqua;
+    }
+    
+    .primary-navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+}
+
+
+
+/* Navbar Styling Ends */
+
+
+/* Notes Styling Starts */
+.notes{
+    background-color: rgb(141, 221, 127);
+}
+/* Notes Styling Ends */
+
+
+/* ToDo Styling Starts */
+@media (max-width: 720px){
+    .todo{
+        background-color: rgb(83, 228, 228);
+    }
+}
+/* ToDO Styling Ends */

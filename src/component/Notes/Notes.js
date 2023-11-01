@@ -1,5 +1,5 @@
 import React from "react"
-import "./notesStyles.css";;
+import "../../assets/styles.css";;
 
 const Notes = () =>{
     return(
