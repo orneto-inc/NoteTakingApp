@@ -10,10 +10,13 @@
 
 /* Layout & Common Styling Start */
 /* Right Side Bar */
-.rightSideBar-section{
-    background-color: aliceblue;
-    width: 20%;
-    height: 100vh;
+@media (max-width: 720px){
+    .rightSideBar-section{
+        background-color: aliceblue;
+        width: 20%;
+        height: 100vh;
+    }
 }
+
 
 /* Layout & Common Styling End */
