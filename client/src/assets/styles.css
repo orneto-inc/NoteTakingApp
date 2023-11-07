@@ -1,6 +1,14 @@
 @import './_utils.css';
 
 
+/* Login Page Styling Starts */
+@media(max-width: 720px){
+    
+}
+
+/* Login Page Styling Ends */
+
+
 /* HomePage Styling Starts */
 @media (max-width: 720px){
     .homepage-container{
